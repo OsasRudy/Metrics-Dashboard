@@ -1,0 +1,109 @@
+/*body{*/
+/*  margin: 0;*/
+/*  text-align: center;*/
+/*  background: linear-gradient( to right, white, lightsalmon );*/
+/*}*/
+body {
+  --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
+  --pink: #FF919D;
+  --glass: rgba(255, 255, 255, 0.54);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --activeItem: #f799a354;
+}
+.text-space{
+  background-color: #333333;
+}
+.text-muted{
+  background-color: #a5a5a5;
+}
+
+/*.calculator-operation-output{*/
+/*  margin-top: 2rem;*/
+/*  font-size: 130px;*/
+/*  margin-top: 20px;*/
+/*  font-weight:300;*/
+/*  text-align: right;*/
+/*  background-color: black ;*/
+/*  color: white;*/
+/*  word-wrap: break-word;*/
+/*  word-break: break-all;*/
+/*  justify-content: space-around;*/
+/*}*/
+/*.previous-operand{*/
+/*  color: white;*/
+/*  font-size: 1.5rem;*/
+/*}*/
+/*.current-operand{*/
+/*  color: white;*/
+/*  font-size: 3rem;*/
+/*}*/
+/*.calculator-grid{*/
+/*  display: grid;*/
+/*  padding: 1rem;*/
+/*  !* 4 columns  *!*/
+/*  grid-template-columns: repeat(4,5.5rem);*/
+/*  !* allows the display to autofix if the input number is too long*!*/
+/*  grid-template-rows:repeat(5, 6rem);*/
+/*  justify-content: center;*/
+/*}*/
+/*.calculator-grid> button.top:hover,*/
+/*.calculator-grid> button.top:focus {*/
+/*  background-color: rgba(236, 230, 230, 0.9);*/
+/*}*/
+
+/*.calculator-grid> button.right:hover,*/
+/*.calculator-grid> button.right:focus {*/
+/*  background-color: rgb(248, 185, 131);*/
+/*}*/
+
+/*.calculator-grid> button.center:hover,*/
+/*.calculator-grid> button.center:focus {*/
+/*  background-color: rgb(96, 96, 96);*/
+/*}*/
+
+/*.button-display{*/
+/*  background: #333;*/
+/*  color: white;*/
+/*  border: none;*/
+/*  grid-gap: 29px;*/
+/*  height: 75px;*/
+/*  width: 75px;*/
+/*  border-radius: 50%;*/
+/*  font-size: 30px;*/
+/*}*/
+/*.top{*/
+/*  color: black;*/
+/*  background: #a5a5a5;*/
+/*}*/
+/*.right{*/
+/*  background: rgba(255, 168, 55, 0.9);*/
+/*}*/
+/*.zero{*/
+/*  width: 150px;*/
+/*  grid-column: span 2;*/
+/*  border-radius:57px;*/
+/*  position: relative;*/
+/*  justify-content: flex-start;*/
+/*  padding-left: 1px;*/
+/*}*/
+/*.c{*/
+/*  display: grid;*/
+/*  margin-top: 2rem;*/
+/*  grid-template-columns: repeat(1,5.5rem);*/
+/*  grid-template-rows: minmax(7rem, auto);*/
+/*  grid-column: 1/-1;*/
+/*  background-color: black ;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: flex-end;*/
+/*  justify-content: space-around;*/
+/*  padding: .75rem;*/
+/*  word-wrap: break-word;*/
+/*  word-break: break-all;*/
+/*  color: white;*/
+/*}*/

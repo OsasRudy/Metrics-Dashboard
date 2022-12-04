@@ -1,0 +1,12 @@
+
+.metricDisplay{
+    display: flex;
+    gap: 15px;
+}
+
+.parentContainer{
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
